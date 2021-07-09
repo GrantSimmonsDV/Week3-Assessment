@@ -10,7 +10,7 @@ function handleSubmit(evt) {
 }
 
 
-let form = document.querySelector('form#contact');
+let form = document.querySelector('#contact');
 
 form.addEventListener('submit', handleSubmit);
 
@@ -18,13 +18,14 @@ document.querySelector("img").addEventListener("mouseover", () => {
 	alert('You have a good taste in pets')
 })
 
-let restaurants = ["bc chicken kaysville", "big daddys pizza", "old grist mill bread company"]
+// let restaurants = ["bc chicken kaysville", "big daddys pizza", "old grist mill bread company"]
 
 
-document.querySelector("#recR").addEventListener("click", () => {
-	  let indexRest = Math.floor(Math.random() * restaurants.length)
-	  rest = restaurants[indexRest]
-	  let answer = document.createElement("p")
-	  answer.textContent = 
+// document.querySelector(".recR").addEventListener("click", () => {
+// 	  let indexRest = Math.floor(Math.random() * restaurants.length)
+// 	  rest = restaurants[indexRest]
+// 	  alert(rest)
+// 	//   let answer = document.createElement("p")
+// 	//   answer.textContent
 
-})
+// })
