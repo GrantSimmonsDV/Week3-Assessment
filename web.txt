@@ -1,0 +1,9 @@
+
+
+How does the internet work? 
+What happens when you click on a link? 
+
+
+The internet consist of cleints and servers that communicate with eachother through URLs. The client requests to view a particular website by entering in a web address into the browser. The web address (URL) tells the server that holds the website's files what to return like whether the site requested is encrypted or not, the IP address derived from the hostname (by way of the DNS) and the endpoint being a specific part of the site's pages. The server reads the URL processes it on the backend and sends back a response. The response then displays the disired website on the client device.
+
+When a link is clicked it triggers an event in the javascript file and runs certain functions in that file to display or do what it is to execute in the DOM. What is created in the js file and DOM does not change the HTML but temporarly creates HTML elements to display for the user's actions. 
