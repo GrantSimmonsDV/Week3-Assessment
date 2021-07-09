@@ -17,3 +17,14 @@ form.addEventListener('submit', handleSubmit);
 document.querySelector("img").addEventListener("mouseover", () => {
 	alert('You have a good taste in pets')
 })
+
+let restaurants = ["bc chicken kaysville", "big daddys pizza", "old grist mill bread company"]
+
+
+document.querySelector("#recR").addEventListener("click", () => {
+	  let indexRest = Math.floor(Math.random() * restaurants.length)
+	  rest = restaurants[indexRest]
+	  let answer = document.createElement("p")
+	  answer.textContent = 
+
+})
